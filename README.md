@@ -43,3 +43,59 @@ public class cursoJava {
     }
 
 }
+//******************************************************
+public class ScannerConcatenacion {
+    
+    public static void main(String args[]){
+        
+        var scanner= new Scanner(System.in);
+        
+        System.out.println("Proporciona el nombre: ");
+        String nombre =scanner.nextLine();
+        
+        System.out.println("Proporciona el id: ");
+        var id = Integer.parseInt(scanner.nextLine());
+        
+        System.out.println("Proporciona el precio: ");
+        double precio = Double.parseDouble(scanner.nextLine());
+        
+        System.out.println("Proporciona el simbolo: ");
+        char simbolo = scanner.nextLine().charAt(0);
+        
+        System.out.println("Proporciona el envio gratuito: ");
+        boolean envio= Boolean.parseBoolean(scanner.nextLine());
+        
+        System.out.println("\n\n");
+        System.out.println(nombre +"#"+ id  );
+        System.out.println("Precio:"+simbolo+precio);
+        System.out.println("Envio gratuito:"+envio);
+        
+        
+        
+        
+    }
+}
+
+//*****************************
+public class Tarea03 {
+    
+    public static void main(String args[]){
+        
+        var scanner = new Scanner(System.in);
+        
+        System.out.println("Proporciona la altura del rectangulo:");
+        int altura = Integer.parseInt(scanner.nextLine());
+
+        System.out.println("Proporciona el ancho del rectangulo:");
+        int ancho = Integer.parseInt(scanner.nextLine());
+
+        int area = altura * ancho;
+
+        int perimetro = (altura * ancho) * 2;
+
+        System.out.println("\n\n");
+        System.out.println("Area:" + area);
+        System.out.println("Perimetro:" + perimetro);
+    }
+}
+
