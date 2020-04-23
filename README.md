@@ -127,3 +127,34 @@ public class Tarea05 {
     }
     
 }
+//**************condicion if else -else if 
+ var condicion = true;
+
+        if (condicion) {
+
+            System.out.println("condicion verdadera");
+        } else {
+            System.out.println("condicion falsa");
+        }
+        var numero = 2;
+
+        if (numero == 1) {
+
+            System.out.println("el numero es 1");
+
+        } 
+        else if (numero == 2){
+            System.out.println("el numero es 2");
+        }
+        
+        else if(numero == 3){
+            System.out.println("el numero es 3");
+            
+        }
+        else {
+            System.out.println("valor desconocido ");
+        }
+
+    }
+
+}
