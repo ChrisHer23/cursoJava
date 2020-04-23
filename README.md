@@ -99,3 +99,31 @@ public class Tarea03 {
     }
 }
 
+//tarea 05 procedencia de operadores 
+public class Tarea05 {
+    
+    public static void main(String args[]){
+        
+        int a = 2;
+        int b = 3;
+         
+        int res = -3 + 6/ ++a * 4 - b-- + b; 
+        //incrementa a++ =2+1=3
+        //-3+(6/3))*4-3+3
+        System.out.println("1er operacion realizada(6/3):" +(6/3)); //vale 2
+        //-3+(2)*4-3+3
+        System.out.println("2da operacion realizada(2*4): " + (2*4)); //vale 8
+        //-3+(8)-3+3
+        System.out.println("3er operacion realizada(-3+8): "+(-3+8));//vale 5
+        //(-3+8)-3+3
+        //5-3+(--3)
+        
+        System.out.println("4ta operacion realizada(5-3): " +(5-3)); //vale 2
+        //2+2 
+        System.out.println("ultima operacion realizada(2+2): "+(2+2));//vale 4
+       
+        System.out.println("El resultado es: "+res);
+        
+    }
+    
+}
