@@ -199,3 +199,49 @@ public class Tarea05 {
             System.out.println(calNota);
         }
 }
+//****************operador or con if else
+import java.util.Scanner;
+
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+/**
+ *
+ * @author christian
+ */
+public class HolaMundo {
+
+    public static void main(String args[]) {
+
+        String estacion = null;
+
+        Scanner mes = new Scanner(System.in); //mes de año
+
+        System.out.println(
+                "\n 1.-Enero. \n 2.-Febrero. \n 3.-Marzo \n 4.-Abril "
+                + "\n 5.-Mayo \n 6.-Junio \n 7.-Julio \n 8.-Agosto"
+                + " \n 9.-Septiembre \n 10.-Octubre \n 11.-Noviembre \n 12.-Diciembre"
+                + "Ingresa el numero de mes que deseas:  ");
+
+        int mesElegido = Integer.parseInt(mes.nextLine());
+
+        if (mesElegido == 1 || mesElegido == 2 || mesElegido == 3) {
+
+            estacion = "Invierno";
+
+        } else if (mesElegido == 3 || mesElegido == 4 || mesElegido == 5) {
+            estacion = "Primavera";
+
+        } else if (mesElegido == 6 || mesElegido == 7 || mesElegido == 8) {
+            estacion = "Verano";
+
+        } else if (mesElegido == 9 || mesElegido == 10 || mesElegido == 11) {
+
+            estacion = "Otoño";
+        }
+
+        System.out.println("La estacion del año es " + estacion+ " " + "del mes "+mesElegido);
+    }
+}
