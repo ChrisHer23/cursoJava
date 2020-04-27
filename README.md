@@ -156,5 +156,46 @@ public class Tarea05 {
         }
 
     }
+//***************switch 
+ var calificacion = new Scanner(System.in);
+        System.out.println("Ingresa tu calificacion entre 0 y 10");
+        int calif2 = Integer.parseInt(calificacion.nextLine());
 
+        if (calif2 >= 0 && calif2 <= 5) {
+
+            System.out.println("Tu nota es F");
+        } else {
+
+            //int calif2 =3;
+            String calNota;
+
+            switch (calif2) {
+
+                case 6:
+                    calNota = "Tu nota es D";
+                    break;
+
+                case 7:
+                    calNota = "Tu nota es C";
+                    break;
+
+                case 8:
+                    calNota = "Tu nota es B";
+                    break;
+
+                case 9:
+                    calNota = "Tu nota es A";
+                    break;
+
+                case 10:
+                    calNota = "Tu nota es A";
+                    break;
+
+                default:
+                    calNota = "nota desconocida";
+
+            }
+
+            System.out.println(calNota);
+        }
 }
