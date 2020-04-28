@@ -160,7 +160,8 @@ public class Tarea05 {
  
  
  
- var calificacion = new Scanner(System.in);
+        var calificacion = new Scanner(System.in);
+ 
         System.out.println("Ingresa tu calificacion entre 0 y 10");
         int calif2 = Integer.parseInt(calificacion.nextLine());
 
@@ -246,5 +247,49 @@ public class HolaMundo {
         }
 
         System.out.println("La estacion del año es " + estacion+ " " + "del mes "+mesElegido);
+    }
+    
+    *//////****************** Estructura switch
+}
+        var numeroMes = new Scanner(System.in);
+        String estacion = null;
+
+        System.out.println("Ingresa el numero del mes del año que desees:");
+        int mes = Integer.parseInt(numeroMes.nextLine());
+
+        switch (mes) {
+            case 1:
+            case 2:
+            case 12:
+
+                estacion = "Invierno";
+
+                break;
+
+            case 3:
+            case 4:
+            case 5:
+                estacion = "Primavera";
+                break;
+
+            case 6:
+            case 7:
+            case 8:
+                estacion = "Verano";
+                break;
+
+            case 9:
+            case 10:
+            case 11:
+                estacion = "Otoño";
+                break;
+
+            default:
+                estacion = "Estacion desconocida";
+        }
+
+        System.out.println("La estacion que elegiste es " + estacion +" "+
+                "corresponde al mes numero " + mes+" " + "del año");
+
     }
 }
