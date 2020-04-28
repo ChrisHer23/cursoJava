@@ -157,6 +157,9 @@ public class Tarea05 {
 
     }
 //***************switch 
+ 
+ 
+ 
  var calificacion = new Scanner(System.in);
         System.out.println("Ingresa tu calificacion entre 0 y 10");
         int calif2 = Integer.parseInt(calificacion.nextLine());
