@@ -293,3 +293,25 @@ public class HolaMundo {
 
     }
 }
+//******************* ciclo while & do while
+
+      var contador=0;
+        
+//             while(contador<3){
+//            
+//            System.out.println("Contador = "+ contador );
+//            
+//            contador++;
+//        }
+        
+        do{
+            System.out.println("contador ="+ contador);
+            contador++;
+        }
+        while(contador <3);
+        
+    
+    
+        
+    }
+    
