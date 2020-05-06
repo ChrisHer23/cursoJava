@@ -348,3 +348,15 @@ public class HolaMundo {
             System.out.println("i = " + i);
 
         }
+//**************** labels 
+
+        inicio:
+        for (int i = 0; i < 10; i++) {
+
+            if (i % 2 != 0) {
+
+                break inicio;
+            }
+            System.out.println("i = " + i);
+
+        }
