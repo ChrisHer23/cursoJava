@@ -360,3 +360,55 @@ public class HolaMundo {
             System.out.println("i = " + i);
 
         }
+
+
+//***************Contructores
+
+Aritmetica.java
+public class Aritmetica {
+    
+    int a;
+    int b;
+    public Aritmetica(){
+        
+      //  a=1;
+        //b=8;
+        System.out.println("Ejecutando constructor vacio");
+    }
+    public int sumar(){
+        
+        int resultado = a + b;
+        
+        return resultado;
+        
+        
+    }
+        
+    
+    
+}
+PruebaProyecto.java
+
+public class Aritmetica {
+    
+    int a;
+    int b;
+    public Aritmetica(){
+        
+      //  a=1;
+        //b=8;
+        System.out.println("Ejecutando constructor vacio");
+    }
+    public int sumar(){
+        
+        int resultado = a + b;
+        
+        return resultado;
+        
+        
+    }
+        
+    
+    
+}
+//***********************
